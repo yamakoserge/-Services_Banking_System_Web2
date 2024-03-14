@@ -1,0 +1,47 @@
+import { Check } from './../../../../../node_modules/typed-assert/src/index';
+import { Component } from '@angular/core';
+import {AuthService} from "../../services/auth/auth.service";
+
+@Component({
+  selector: 'app-signup-client',
+  templateUrl: './signup-client.component.html',
+  styleUrl: './signup-client.component.scss'
+})
+export class SignupClientComponent {
+
+  validateForm!: FormGroup;
+
+  constructor(private fb: FormBuilder,
+              private authService: AuthService,
+              private notification: NzNotificationService,
+              private router: Router) {}
+
+  ngOnInit(){
+    this.validateForm = this.fb.group({
+      email: [null, [Validators.email, Validators.required]],
+      name : [null, [Validators.required]],
+      lastname : [null, [Validators.required]],
+      phone : [null],
+      password : [null, [Validators.required]],
+      CheckPassword : [null, [Validators.required]],
+  }
+
+  submitForm(){
+    this.authService.registerClient(this.validateForm.value).subscribe( res =>{
+      this.notification
+        .success(
+          'SUCCESS',
+          'Signup successful',
+          {nzDuration: 5000 }
+        );
+
+    },error =>{
+      this.notification
+      .error(
+        'ERROR',
+        '${error,error}',
+        { nzDuration: 5000 }
+      )
+    });
+  }
+}
