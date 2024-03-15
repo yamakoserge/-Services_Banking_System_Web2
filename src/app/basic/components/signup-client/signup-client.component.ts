@@ -1,6 +1,8 @@
-import { Check } from './../../../../../node_modules/typed-assert/src/index';
 import { Component } from '@angular/core';
 import {AuthService} from "../../services/auth/auth.service";
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { Router } from 'express';
+import { NzNotificationService } from 'ng-zorro-antd/notification';
 
 @Component({
   selector: 'app-signup-client',
@@ -8,6 +10,8 @@ import {AuthService} from "../../services/auth/auth.service";
   styleUrl: './signup-client.component.scss'
 })
 export class SignupClientComponent {
+
+
 
   validateForm!: FormGroup;
 
@@ -24,24 +28,27 @@ export class SignupClientComponent {
       phone : [null],
       password : [null, [Validators.required]],
       CheckPassword : [null, [Validators.required]],
-  }
+  })
+ }
 
-  submitForm(){
-    this.authService.registerClient(this.validateForm.value).subscribe( res =>{
-      this.notification
-        .success(
-          'SUCCESS',
-          'Signup successful',
-          {nzDuration: 5000 }
-        );
+ submitForm(){
+  this.authService.registerClient(this.validateForm.value).subscribe( (res: any) => {
+    this.notification
+      .success(
+        'SUCCESS',
+        'Signup successful',
+        {nzDuration: 5000 }
+      );
 
-    },error =>{
-      this.notification
-      .error(
-        'ERROR',
-        '${error,error}',
-        { nzDuration: 5000 }
-      )
-    });
-  }
+  },(error: any)=>{
+    this.notification
+    .error(
+      'ERROR',
+      '${error,error}',
+      { nzDuration: 5000 }
+    )
+  });
 }
+
+}
+

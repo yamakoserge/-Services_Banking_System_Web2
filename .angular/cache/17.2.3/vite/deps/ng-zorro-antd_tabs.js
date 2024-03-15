@@ -1,32 +1,23 @@
 import {
-  NzResizeObserver
-} from "./chunk-PL4LX5OB.js";
-import {
-  A11yModule,
-  CdkMonitorFocus,
-  FocusKeyManager
-} from "./chunk-DBFPU65I.js";
-import {
   NzDropDownDirective,
   NzDropdownMenuComponent
-} from "./chunk-QVACB7XT.js";
+} from "./chunk-ICZTRFTQ.js";
 import {
   NzMenuDirective,
   NzMenuItemComponent,
   NzMenuModule
-} from "./chunk-GTTKHS3W.js";
-import "./chunk-6LK6YEN4.js";
-import "./chunk-INLIGI3K.js";
-import "./chunk-DUINLRZV.js";
+} from "./chunk-4WVEHGIZ.js";
+import "./chunk-OKUA6HG3.js";
 import {
-  NavigationEnd,
-  Router,
-  RouterLink
-} from "./chunk-YP7P577N.js";
-import "./chunk-IK4A3WT3.js";
+  A11yModule,
+  CdkMonitorFocus,
+  FocusKeyManager
+} from "./chunk-BGZ43N6Q.js";
+import "./chunk-FTKDS46L.js";
 import {
   ViewportRuler
-} from "./chunk-EHUNFEVA.js";
+} from "./chunk-I6EKSEFL.js";
+import "./chunk-2YYXRGMJ.js";
 import {
   DOWN_ARROW,
   ENTER,
@@ -36,47 +27,56 @@ import {
   UP_ARROW,
   hasModifierKey
 } from "./chunk-27BDGVS6.js";
-import "./chunk-2HOJCG56.js";
-import {
-  reqAnimFrame
-} from "./chunk-IYZFKAIE.js";
-import "./chunk-4XBJV5PM.js";
-import {
-  NzIconDirective,
-  NzIconModule
-} from "./chunk-B3VXJALR.js";
-import "./chunk-W64RHMF7.js";
-import "./chunk-FF7VI4RK.js";
+import "./chunk-RVBBAKTY.js";
 import {
   NzOutletModule,
   NzStringTemplateOutletDirective
-} from "./chunk-FMYHVPAI.js";
-import "./chunk-JG2757XN.js";
+} from "./chunk-FOI2LCUO.js";
+import "./chunk-XUBGE4VP.js";
+import "./chunk-I7QHWDVT.js";
+import "./chunk-DMU3WFM6.js";
+import "./chunk-TC5FFADD.js";
+import {
+  NzIconDirective,
+  NzIconModule
+} from "./chunk-JKOK4BBF.js";
+import "./chunk-PC7MEKPE.js";
+import "./chunk-LORD2WM5.js";
+import "./chunk-ZKAZ55RL.js";
+import {
+  NzResizeObserver
+} from "./chunk-QQVTEFWM.js";
+import {
+  reqAnimFrame
+} from "./chunk-6XPNW6WZ.js";
+import "./chunk-NWPL43US.js";
 import {
   Directionality
-} from "./chunk-ZRUYH7ST.js";
+} from "./chunk-QUHWCFRY.js";
+import "./chunk-SZ46JUWF.js";
 import {
   NzConfigService,
   WithConfig
-} from "./chunk-GTSJRTPY.js";
+} from "./chunk-WO5CHZVE.js";
 import {
   InputBoolean,
   PREFIX,
   coerceNumberProperty,
   wrapIntoObservable
-} from "./chunk-XQRYCNDM.js";
-import "./chunk-TGLOQCUB.js";
-import "./chunk-L7DXC2FP.js";
-import "./chunk-XVNSV2IK.js";
-import "./chunk-ILIWS5RS.js";
-import "./chunk-TWF2DPXD.js";
-import "./chunk-XWCBP7XN.js";
+} from "./chunk-BZY47JLS.js";
+import {
+  NavigationEnd,
+  Router,
+  RouterLink
+} from "./chunk-34XJSCD6.js";
+import "./chunk-ANC7ZSHL.js";
+import "./chunk-R3M5EX2S.js";
 import {
   NgForOf,
   NgIf,
   NgStyle,
   NgTemplateOutlet
-} from "./chunk-JDFXT26M.js";
+} from "./chunk-OCFXGHS7.js";
 import {
   ANIMATION_MODULE_TYPE,
   ChangeDetectionStrategy,
@@ -151,8 +151,8 @@ import {
   ɵɵtextInterpolate,
   ɵɵtextInterpolate1,
   ɵɵviewQuery
-} from "./chunk-BFZJAOQL.js";
-import "./chunk-J4B6MK7R.js";
+} from "./chunk-VDLLN5SX.js";
+import "./chunk-X6JV76XL.js";
 
 // node_modules/ng-zorro-antd/fesm2022/ng-zorro-antd-tabs.mjs
 function NzTabAddButtonComponent_ng_container_0_Template(rf, ctx) {

@@ -1,13 +1,13 @@
 import {
   NzSpinComponent,
   NzSpinModule
-} from "./chunk-CNYMMW7X.js";
-import "./chunk-ZRUYH7ST.js";
-import "./chunk-GTSJRTPY.js";
-import "./chunk-XQRYCNDM.js";
-import "./chunk-JDFXT26M.js";
-import "./chunk-BFZJAOQL.js";
-import "./chunk-J4B6MK7R.js";
+} from "./chunk-GSNR5RCC.js";
+import "./chunk-QUHWCFRY.js";
+import "./chunk-WO5CHZVE.js";
+import "./chunk-BZY47JLS.js";
+import "./chunk-OCFXGHS7.js";
+import "./chunk-VDLLN5SX.js";
+import "./chunk-X6JV76XL.js";
 export {
   NzSpinComponent,
   NzSpinModule
