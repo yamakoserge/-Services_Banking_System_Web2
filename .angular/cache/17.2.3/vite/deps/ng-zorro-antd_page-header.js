@@ -1,30 +1,30 @@
 import {
-  NzOutletModule,
-  NzStringTemplateOutletDirective
-} from "./chunk-FOI2LCUO.js";
+  NzResizeObserver
+} from "./chunk-4NDJ74LI.js";
 import {
   NzIconDirective,
   NzIconModule
-} from "./chunk-JKOK4BBF.js";
+} from "./chunk-PNWLZHN6.js";
+import "./chunk-UOAILW34.js";
 import {
-  NzResizeObserver
-} from "./chunk-QQVTEFWM.js";
+  NzOutletModule,
+  NzStringTemplateOutletDirective
+} from "./chunk-HIDZGXHW.js";
 import {
   Directionality
-} from "./chunk-QUHWCFRY.js";
-import "./chunk-SZ46JUWF.js";
+} from "./chunk-234HVI5C.js";
 import {
   NzConfigService,
   WithConfig
-} from "./chunk-WO5CHZVE.js";
+} from "./chunk-YXWFO5RT.js";
 import {
   PREFIX
-} from "./chunk-BZY47JLS.js";
-import "./chunk-ANC7ZSHL.js";
-import "./chunk-R3M5EX2S.js";
+} from "./chunk-3SUK7U6J.js";
+import "./chunk-OYTAYSJ2.js";
+import "./chunk-BZMTTGPA.js";
 import {
   Location
-} from "./chunk-OCFXGHS7.js";
+} from "./chunk-EPXBI2CD.js";
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,
@@ -37,12 +37,8 @@ import {
   NgModule,
   Optional,
   Output,
-  Subject,
   ViewEncapsulation$1,
-  __decorate,
-  map,
   setClassMetadata,
-  takeUntil,
   ɵɵStandaloneFeature,
   ɵɵadvance,
   ɵɵclassProp,
@@ -71,7 +67,13 @@ import {
   ɵɵtemplate,
   ɵɵtext,
   ɵɵtextInterpolate
-} from "./chunk-VDLLN5SX.js";
+} from "./chunk-OVN7IZ6V.js";
+import {
+  Subject,
+  __decorate,
+  map,
+  takeUntil
+} from "./chunk-JKR55PDT.js";
 import "./chunk-X6JV76XL.js";
 
 // node_modules/ng-zorro-antd/fesm2022/ng-zorro-antd-page-header.mjs

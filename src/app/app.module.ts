@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
+import {
+  BrowserModule,
+  provideClientHydration,
+} from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +18,7 @@ import { HttpClientModule, provideHttpClient } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DemoNgZorroAntdModule } from './DemoNgZorroAntModule';
 import { SignupClientComponent } from './basic/components/signup-client/signup-client.component';
+import { SignupCompanyComponent } from './basic/components/signup-company/signup-company.component';
 
 registerLocaleData(en);
 
@@ -23,7 +27,8 @@ registerLocaleData(en);
     AppComponent,
     LoginComponent,
     SingupComponent,
-    SignupClientComponent
+    SignupClientComponent,
+    SignupCompanyComponent,
   ],
   imports: [
     BrowserModule,
@@ -38,8 +43,8 @@ registerLocaleData(en);
     provideClientHydration(),
     { provide: NZ_I18N, useValue: en_US },
     provideAnimationsAsync(),
-    provideHttpClient()
+    provideHttpClient(),
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

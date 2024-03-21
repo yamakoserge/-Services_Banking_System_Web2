@@ -1,32 +1,32 @@
 import {
   NzAffixComponent,
   NzAffixModule
-} from "./chunk-MPBHCSOO.js";
-import "./chunk-QQVTEFWM.js";
+} from "./chunk-MRPWH7MJ.js";
+import "./chunk-4NDJ74LI.js";
 import {
   NzScrollService
-} from "./chunk-6XPNW6WZ.js";
-import "./chunk-NWPL43US.js";
-import "./chunk-QUHWCFRY.js";
+} from "./chunk-SI4TRZI4.js";
+import "./chunk-BYTT75NY.js";
 import {
   Platform,
   normalizePassiveListenerOptions
-} from "./chunk-SZ46JUWF.js";
+} from "./chunk-UOAILW34.js";
+import "./chunk-234HVI5C.js";
 import {
   NzConfigService,
   WithConfig
-} from "./chunk-WO5CHZVE.js";
+} from "./chunk-YXWFO5RT.js";
 import {
   InputBoolean,
   InputNumber
-} from "./chunk-BZY47JLS.js";
+} from "./chunk-3SUK7U6J.js";
 import {
   DOCUMENT,
   NgClass,
   NgIf,
   NgStyle,
   NgTemplateOutlet
-} from "./chunk-OCFXGHS7.js";
+} from "./chunk-EPXBI2CD.js";
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,
@@ -40,15 +40,10 @@ import {
   NgZone,
   Output,
   Renderer2,
-  Subject,
   TemplateRef,
   ViewChild,
   ViewEncapsulation$1,
-  __decorate,
-  fromEvent,
   setClassMetadata,
-  takeUntil,
-  throttleTime,
   ɵɵNgOnChangesFeature,
   ɵɵStandaloneFeature,
   ɵɵadvance,
@@ -79,7 +74,14 @@ import {
   ɵɵtext,
   ɵɵtextInterpolate,
   ɵɵviewQuery
-} from "./chunk-VDLLN5SX.js";
+} from "./chunk-OVN7IZ6V.js";
+import {
+  Subject,
+  __decorate,
+  fromEvent,
+  takeUntil,
+  throttleTime
+} from "./chunk-JKR55PDT.js";
 import "./chunk-X6JV76XL.js";
 
 // node_modules/ng-zorro-antd/fesm2022/ng-zorro-antd-anchor.mjs
