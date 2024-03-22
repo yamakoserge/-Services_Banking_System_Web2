@@ -15,6 +15,7 @@ import { HttpClientModule, provideHttpClient } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DemoNgZorroAntdModule } from './DemoNgZorroAntModule';
 import { SignupClientComponent } from './basic/components/signup-client/signup-client.component';
+import { SignupCompanyComponent } from './basic/components/signup-company/signup-company.component';
 
 registerLocaleData(en);
 
@@ -23,7 +24,8 @@ registerLocaleData(en);
     AppComponent,
     LoginComponent,
     SingupComponent,
-    SignupClientComponent
+    SignupClientComponent,
+    SignupCompanyComponent
   ],
   imports: [
     BrowserModule,

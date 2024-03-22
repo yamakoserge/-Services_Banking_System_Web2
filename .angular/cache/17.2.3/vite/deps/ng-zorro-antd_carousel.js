@@ -1,32 +1,32 @@
 import {
-  NzResizeObserver
-} from "./chunk-PL4LX5OB.js";
-import {
   LEFT_ARROW,
   RIGHT_ARROW
 } from "./chunk-27BDGVS6.js";
 import {
+  NzResizeObserver
+} from "./chunk-QQVTEFWM.js";
+import {
   NzDragService,
   NzResizeService
-} from "./chunk-IYZFKAIE.js";
-import "./chunk-4XBJV5PM.js";
-import {
-  Platform
-} from "./chunk-W64RHMF7.js";
+} from "./chunk-6XPNW6WZ.js";
+import "./chunk-NWPL43US.js";
 import {
   Directionality
-} from "./chunk-ZRUYH7ST.js";
+} from "./chunk-QUHWCFRY.js";
+import {
+  Platform
+} from "./chunk-SZ46JUWF.js";
 import {
   NzConfigService,
   WithConfig
-} from "./chunk-GTSJRTPY.js";
+} from "./chunk-WO5CHZVE.js";
 import {
   InputBoolean,
   InputNumber
-} from "./chunk-XQRYCNDM.js";
+} from "./chunk-BZY47JLS.js";
 import {
   NgTemplateOutlet
-} from "./chunk-JDFXT26M.js";
+} from "./chunk-OCFXGHS7.js";
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,
@@ -86,8 +86,8 @@ import {
   ɵɵtext,
   ɵɵtextInterpolate,
   ɵɵviewQuery
-} from "./chunk-BFZJAOQL.js";
-import "./chunk-J4B6MK7R.js";
+} from "./chunk-VDLLN5SX.js";
+import "./chunk-X6JV76XL.js";
 
 // node_modules/ng-zorro-antd/fesm2022/ng-zorro-antd-carousel.mjs
 var _c0 = ["slickList"];
