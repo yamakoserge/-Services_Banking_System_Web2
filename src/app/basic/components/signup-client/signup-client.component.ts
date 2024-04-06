@@ -32,19 +32,19 @@ export class SignupClientComponent {
  }
 
  submitForm(){
-  this.authService.registerClient(this.validateForm.value).subscribe( (res: any) => {
+  this.authService.registerClient(this.validateForm.value).subscribe( res=> {
     this.notification
       .success(
         'SUCCESS',
-        'Signup successful',
+        `Signup successful`,
         {nzDuration: 5000 }
       );
-
-  },(error: any)=>{
+      this.router.navigateByUrl('/login');
+  }, error=>{
     this.notification
     .error(
       'ERROR',
-      '${error,error}',
+      `${error.error}`,
       { nzDuration: 5000 }
     )
   });
